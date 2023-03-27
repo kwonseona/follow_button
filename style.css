@@ -1,0 +1,35 @@
+.profile-container {
+  width: 500px;
+  height: 450px;
+  border: 0.5px solid lightgray;
+  position: relative;
+}
+
+.top-area {
+  height: 150px;
+  background-color: rgb(241, 241, 241);
+}
+
+.bottom-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.profile-info {
+  margin-left: 30px;
+}
+
+.profile-image {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: #fff;
+}
